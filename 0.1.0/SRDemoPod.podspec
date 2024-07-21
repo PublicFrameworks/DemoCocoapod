@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SRDemoPod"
-  spec.version      = "0.0.1"
+  spec.version      = "0.1.0"
   spec.summary      = "This is purely for testing purposes."
 
   # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #
 
   #spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "../LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,10 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "DemoCocoapod/**/*.{swift}"
+  #spec.source_files  = "DemoCocoapod"
+  #spec.source_files  = "DemoCocoapod/**/*.{}"
+  #spec.source_files  = "DemoCocoapod/**/*.{swift}"
+  #spec.source_files  = "DemoCocoapod/**/*.{h,m}"
   #spec.source_files  = "Classes", "Classes/**/*.{h,m}"
   #spec.exclude_files = "Classes/Exclude"
 
